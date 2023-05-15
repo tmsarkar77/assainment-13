@@ -1,0 +1,28 @@
+Part 1: Laravel Installation
+Open a terminal or command prompt and navigate to the  directory where I want to install Laravel.
+Run the following command to create a new Laravel project using Composer: composer create-project laravel/laravel example-app
+Then change the name example-app name
+start the development server run the following command : php artisan serve
+
+
+Part 2: Laravel Folder Structure
+
+app: This folder contains the core application code. It includes directories for models, controllers, middleware, and other application-specific classes.
+
+bootstrap: This folder contains the application's bootstrapping files, including the app.php file, which loads the Laravel framework and prepares the application for execution.
+
+config: This folder contains configuration files for various aspects of the Laravel application, such as database connections, application settings, and service providers.
+
+database: This folder is used for database-related files. It includes migrations, which are used to manage database schema changes, as well as seeders for populating the database with sample data.
+
+public: The public folder is the document root for your application. It contains the entry point (index.php) for all incoming HTTP requests and serves as the public-facing directory that can be accessed by users.
+
+resources: This folder holds non-PHP resources such as views, language files, and asset files (CSS, JavaScript, images). It organizes these resources into subdirectories like views, lang, and assets.
+
+routes: This folder contains the application's route definitions. Routes determine how incoming requests are handled and mapped to appropriate controllers or closures.
+
+storage: The storage folder stores various files generated or utilized by the application. This includes logs, cached views, session data, and uploaded files.
+
+tests: This folder is used for writing automated tests for your Laravel application. It includes PHPUnit test cases and other testing-related files.
+
+vendor: The vendor folder contains all the dependencies managed by Composer. It includes third-party libraries and packages that are required for the application to run.
